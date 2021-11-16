@@ -1,0 +1,14 @@
+body{
+    background-color:blanchedalmond;
+}
+
+img.center{
+    display: block;
+    margin:0 auto;
+    padding-top: 20px;
+}
+
+a{
+    padding-right: 50px;
+    padding-left: 175px;
+}

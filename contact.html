@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Contact
+        </title>
+    </head>
+
+<body>
+    <header>
+        <img class="center" src="images/vicious-cycles-logo.png" alt="Vicious Cycle Logo" id="pic1">
+        <br>
+            <a href="index.html">Home</a>
+            <a href="#">Bikes</a>
+            <a href="#">Locations</a>
+            <a href="#">About Us</a>
+            <a href="contact.html">Contact</a>
+    </header>
+    <h2>Contact Us!</h2><br>
+
+    <label for="bike">Reason for contacting:</label>
+
+<select name="reason" id="reason">
+  <option value="Repair">Repair</option>
+  <option value="Purchase">Purchase</option>
+  <option value="Warranty">Warranty</option>
+  <option value="Other">Other</option>
+</select>
+<br><br>
+    <h3>
+        Contact Information
+    </h3>
+
+<form action="/action_page.php">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value=""><br><br>
+  
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value=""><br><br>
+  
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" name="email" value=""><br><br>
+  
+    <label for="pnumber">Phone Number</label><br>
+    <input type="text" id="pnumber" name="pnumber" value=""><br><br>
+  
+  <h3>
+      Repairs
+  </h3>
+    <input type="checkbox" id="repair1" name="repair1" value="">
+    <label for="repair1">Needs no repair</label><br>
+    <input type="checkbox" id="repair2" name="repair2" value="">
+    <label for="repair2">Handlebars</label><br>
+    <input type="checkbox" id="repair3" name="repair3" value="">
+    <label for="repair3">Chains</label><br>
+    <input type="checkbox" id="repair4" name="repair4" value="">
+    <label for="repair4">Pedals</label><br>
+    <input type="checkbox" id="repair5" name="repair5" value="">
+    <label for="repair5">Seat</label><br><br>
+<h3>
+    Gender
+</h3>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="Prefer not to Say" name="gender" value="Prefer not to Say">
+    <label for="Prefer not to Say">Prefer not to Say</label><br><br>
+
+    <input type="submit" value="Submit">
+
+</form> 
+
+<p>If you click the "Submit" button, you agree to share your information with this company.</p>
+<footer>   
+</footer>   
+</body>
+
+</html>
