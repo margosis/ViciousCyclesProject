@@ -1,14 +1,164 @@
 body{
     background-color:blanchedalmond;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
-img.center{
+img#pic1{
     display: block;
     margin:0 auto;
     padding-top: 20px;
 }
 
-a{
-    padding-right: 50px;
-    padding-left: 175px;
+img#pic2{
+    display: block;
+    margin:0 auto;
+    width: 700px;
+    height: 525px;
+    padding-top: 20px;
 }
+
+img#pic3{
+    display: block;
+    margin:0 auto;
+    width: 700px;
+    height: 525px;
+    padding-top: 20px;
+}
+
+img#facebook{
+    display: block;
+    margin:0 auto;
+    width: 40px;
+    height: 40px;
+    padding-top: 20px;
+}
+
+img#insta{
+    display: block;
+    margin:0 auto;
+    width: 40px;
+    height: 40px;
+    padding-top: 20px;
+    float: left;
+}
+
+img#twitter{
+    display: block;
+    margin:0 auto;
+    width: 49px;
+    height: 40px;
+    padding-top: 20px;
+    float: right;
+}
+
+img#mountainmain{
+    height: 200px;
+    width: 300px;
+}
+
+img#electricmain{
+    height: 200px;
+    width: 300px;
+}
+
+img#streetmain{
+    height: 198px;
+    width: 300px;
+}
+
+img#electric1{
+    height: 334px;
+    width: 500px;
+}
+
+img#electric2{
+    height: 334px;
+    width: 500px;
+}
+
+img#electric3{
+    height: 334px;
+    width: 500px;
+}
+
+img#mountain1{
+    height: 334px;
+    width: 500px;
+}
+
+img#mountain2{
+    height: 334px;
+    width: 500px;
+}
+
+img#mountain3{
+    height: 334px;
+    width: 500px;
+}
+
+img#street1{
+    height: 334px;
+    width: 500px;
+}
+
+img#street2{
+    height: 334px;
+    width: 500px;
+}
+
+img#street3{
+    height: 334px;
+    width: 500px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+div{display: flex;
+    justify-content: space-around;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(143, 91, 14, 0.911);
+    color: white;
+    padding: 12px;
+    width: 100%;
+}
+
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+p{
+    font-family:unset;
+    font-size: 15pt;
+}
+
+h1{
+    font-family: fantasy;
+    font-size: 20pt;
+    text-align: center;
+}
+
+h2{
+    font-family: fantasy;
+    font-size: 17pt;
+    text-align: center;
+}
+
+i{
+    text-align: center;
+}
+
+footer p{
+    font-size: 12pt;
+}
+
+  
